@@ -68,14 +68,14 @@ div {
 body {
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 .navbar-default .navbar-brand {
   color: #A8A8A8
 }
 
-.navbar-default .navbar-brand a:hover {
+.navbar-default .navbar-brand a: {
   color: red
 }
 
@@ -166,14 +166,25 @@ line-height: 25px
 }
 
 .intro-section {
-padding-top: 120px;
+padding-top: 40px;
 text-align: center;
 background: #F9F9F9;
 border: 0
 }
 
+.header-section .intro-section h1:hover{
+  color: #000000;
+}
+
 .intro-section h1 {
   color: #EF4141;
+  padding-bottom: 20px;
+}
+
+.header-section .intro-section h1 {
+  max-width: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .intro-section p {
@@ -345,6 +356,21 @@ opacity: 1
   font-size: 22px
 }
 
+.left-box img {
+  height: 380px;
+  width: auto;
+}
+
+.right-box img {
+  height: 380px;
+  width: auto;
+}
+
+.equal-box img {
+  height: 500px;
+  width: auto;
+}
+
 .btn-dark {
 border-radius: 0;
 color: #1a1b2b;
@@ -366,7 +392,7 @@ animation: shake 13s linear 0s infinite alternate
 .btn-default {
 border-color: #fff;
 background-color: #1a1b2b;
-color: #fff
+color: #000
 }
 
 .btn-default:hover {
