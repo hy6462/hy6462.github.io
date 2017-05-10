@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Fearless</title>
+  <link rel="stylesheet" href="stylesheets/superslides.css">
+    <link rel="stylesheet" href="stylesheets/flexslider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="icon" type="image/ico" href="favicon.ico">
+  <script src="//use.typekit.net/qsq3qyp.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+  <div id="hero-slides">
+    <div class="slides-container">
+      <div>
+        <img src="img/happiness.jpg" alt="">
+      </div>
+
+      <div>
+        <img src="img/screens.png" alt="">
+      </div>
+    </div>
+
+    <div class="content hero">
+      <h1>FEARLESS</h1>
+      <h2>Tap into your positive&nbsp;thoughts.</h2>
+      <div class="cta">PURCHASE IN THE APP STORE</div>
+    </div>
+
+    
+    <nav class="slides-navigation">
+      <a href="#" class="next"><img src="images/next.png" alt=""></a>
+      <a href="#" class="prev"><img src="images/previous.png" alt=""></a>
+    </nav>
+  </div>
+  <div class="desktop">
+    <div class="content">
+     <img class="laptop" src="img/screens.png" alt="">
+      <div class="points">
+        <div class="point">
+          <img src="img/rank.png" alt="">
+          <div>
+            <h2>Rank Your Fears.</h2>
+            <p>This app lets you rank your fears, then make challenges for yourself.This way, you can face your easiest challenges first, taking baby steps to overcoming your most feared situations.</p>
+          </div>
+        </div>
+        <div class="point">
+          <img src="img/therapy.png" alt="">
+          <div>
+            <h2>Therapy You Can Trust.</h2>
+            <p>Based on cognitive behavioural therapy, we help you recognize your cognitive distortions, or more widely known as "thinking traps". Thinking traps, simply put are ways that our mind convinces us of something that isn't true, guiding us into costant negative thinking.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile">
+    <div class="content">
+      <div class="points">
+        <div class="point">
+          <div class="mobile-content">
+            <h2>Countdown to&nbsp;happiness</h2>
+            <p>The Fearless mobile app works seamlessly on your phone as a personal diary.</p>
+         <iframe src="https://player.vimeo.com/video/163358683?title=0&byline=0&portrait=0" width="660" height="372" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <section class="slider">
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="img/female.png" alt="">
+          <div class="testimonial">
+            <p class="quote">“After using Fearless, I am less afraid to take risks. I realized what I'm afraid of and took a slow journey in overcoming each one.”</p>
+            <p class="couple">Sarah</p>
+            <p class="locations">Designer, 26</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/male.png" alt="">
+          <div class="testimonial">
+            <p class="quote">“It's amazing how a small change can result in big rewards in the end”</p>
+            <p class="couple">Adam </p>
+            <p class="locations">Student, 19</p>
+          </div>
+        </li>
+        <li>
+          <img src="img/42woman.png" alt="">
+          <div class="testimonial">
+            <p class="quote">“I felt like I was constantly trapped. With Fearless, I'm able to vent out my concerns.”</p>
+            <p class="couple">Jessica</p>
+            <p class="locations">Math Tutor, 42</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+
+  <div class="footer">
+    <div class="content">
+      <h2>Any Questions?</h2>
+      <div class="cta">@fearless.com</div>
+    </div>
+  </div>
+</div>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="javascripts/jquery.easing.1.3.js"></script>
+  <script src="javascripts/jquery.animate-enhanced.min.js"></script>
+  <script src="dist/jquery.superslides.js" type="text/javascript" charset="utf-8"></script>
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "fade",
+        controlNav: false
+      });
+    });
+
+    $(window).unload(function() {
+        $('body').scrollTop(0);
+        $(document).scrollTop(0);
+    });
+  </script>
+
+  <script>
+    $(function() {
+      $('#hero-slides').superslides({
+        hashchange: true,
+        pagination: false
+        // play: 4000
+      });
+
+      // $(document).on('init.slides', function() {
+      //   $('.desktop .content img').delay(800).animate({opacity: "1", margin:"-150 0 0 0"}, 400);
+      // });
+      $('#hero-slides').on('mouseenter', function() {
+        $(this).superslides('stop');
+      });
+      $('#hero-slides').on('mouseleave', function() {
+        $(this).superslides('start');
+      });
+    });
+  </script>
+
+
+</body>
+</html>
