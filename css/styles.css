@@ -479,10 +479,16 @@ hr {
   background-color: rgba(0, 0, 0, 0.7)
 }
 .portfoliobtn {
-  padding-top: 80px;
+
+float: left;
   border: none;
   -webkit-animation: shake 13s linear 0s infinite alternate;
   animation: shake 13s linear 0s infinite alternate
+}
+
+
+.topportfoliobtn{
+padding-top: 50px;
 }
 .index-btn-default {
   opacity: 0.8;
