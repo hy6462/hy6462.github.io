@@ -126,6 +126,25 @@ a:hover {
 }
 
 
+.photoofme {
+  position: relative;
+  padding-top: ;
+}
+
+#pic {
+  width: 120%;
+  height: 120%;
+  padding-left: 100px;
+  padding-top: 180px;
+  opacity: 0.8;
+}
+
+
+.h1 em{
+  color: #ffadad;;
+}
+
+
 .navbar-fixed-top {
   padding-top: 15px;
 }
@@ -133,6 +152,11 @@ a:hover {
 .socialmedia {
   word-spacing: 11px;
 }
+
+.pink {
+color: black;
+}
+
 
 a:active {
 text-decoration: none;
@@ -187,11 +211,7 @@ p {
 
 }
 
-.me {
-    position: relative;
-    float: left;
-    width: 100px;
-}
+
 
 .project-title {
   padding-top: 40px;
@@ -221,13 +241,27 @@ p {
   width: 100%;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 100;
-  line-height: 140%;
-  font-size: 60px;
+  line-height: 100%;
+  font-size: 80px;
   letter-spacing: 6px;
-  color: #3F3F3F;
-  padding-bottom: 20px
- 
+  padding-bottom: 20px;
 
+}
+
+
+.grey {
+  color: #3F3F3F;
+}
+
+.pink h1{
+  color: #ffadad;
+}
+
+.ohhello {
+  background: none;
+    top:0;
+    left:0;
+    position: absolute;
 }
 
 
@@ -236,7 +270,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
    letter-spacing: 2px;
-  font-size: 17px;
+  font-size: 15px;
   line-height: 165%;
   color: #1A1B2B;
   padding-bottom: 20px
