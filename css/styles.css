@@ -126,20 +126,6 @@ a:hover {
 }
 
 
-.photoofme {
-  position: relative;
-  padding-top: ;
-}
-
-#pic {
-  width: 120%;
-  height: 120%;
-  padding-left: 100px;
-  padding-top: 100px;
-
-}
-
-
 .h1 em{
   color: #ffadad;;
 }
@@ -149,9 +135,7 @@ a:hover {
   padding-top: 15px;
 }
 
-.socialmedia {
-  word-spacing: 11px;
-}
+
 
 .pink {
 color: black;
@@ -189,10 +173,38 @@ p {
 }
 
 .outer-paragraph {
-  text-align: left;
-
+  display: inline-block;
+  position: relative;
+  width: 100%;
 }
 
+.ohhello {
+  z-index: 10;
+  background: none;
+  position: absolute;
+  width: inherit;
+}
+
+.socialmedia {
+  position: relative;
+  word-spacing: 11px;
+}
+
+.photoofme {
+  position: inherit;
+  z-index: 0;
+  vertical-align:bottom;
+  width: inherit;
+  min-width: 450px;
+}
+
+#pic {
+  width: 120%;
+  height: 120%;
+  padding-left: 100px;
+  padding-top: 150px;
+  max-width: 550px;
+}
 .intro-paragraph {
   display: inline-block;
   text-align: left;
@@ -200,20 +212,13 @@ p {
   padding-right: 150px;
   width: 130%;
 }
-
-
 .intro-section {
   padding-top: 100px;
   padding-bottom: 100px;
-  text-align: center;
+  /*text-align: center;*/
   background: #f0f0f0;
   border: 0
-
 }
-
-
-
-
 .project-title {
   padding-top: 40px;
   border: 0
@@ -246,7 +251,6 @@ p {
   font-size: 80px;
   letter-spacing: 6px;
   padding-bottom: 20px;
-
 }
 
 
@@ -258,25 +262,13 @@ p {
   color: #ffadad;
 }
 
-.ohhello {
-  background: none;
-    top:0;
-    left:0;
-    position: absolute;
-}
-
-
-
 .intro-paragraph h2 {
-
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 195%;
   color: #1A1B2B;
   padding-bottom: 20px
- 
-
 }
 
 
@@ -340,13 +332,13 @@ hr {
   background-position: center;
   margin: -1em 0 0 -1em;
   opacity: 1;
-  -webkit-animation: pulsate 1.3s ease-out;
+  -webkit-animation: pulsate 0.7s ease-out;
   -webkit-animation-iteration-count: infinite;
   animation-name: pulsate;
-  animation-duration: 1.3s;
+  animation-duration: 0.7s;
   animation-iteration-count: infinite;
   moz-animation-name: pulsate;
-  moz-animation-duration: 1.3s;
+  moz-animation-duration: 0.7s;
   moz-animation-iteration-count: infinite
 }
 @-webkit-keyframes pulsate {
