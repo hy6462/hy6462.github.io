@@ -195,7 +195,8 @@ p {
   z-index: 0;
   vertical-align:bottom;
   width: inherit;
-  min-width: 450px;
+  min-width: 400px;
+  opacity: 0.5;
 }
 
 #pic {
