@@ -22,9 +22,7 @@
 }
 
 
-.container {
-  width: 1000px;
-}
+
 
  
 .table-row {
@@ -45,7 +43,7 @@ iframe {
   
 }
 
-@media (min-width:1200px) {
+@media (min-width:750px) {
 
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -60,7 +58,7 @@ iframe {
 }
 
 
-@media (max-width:992px) {
+@media (min-width:992px) {
 
 
   .left-box img {
@@ -87,13 +85,6 @@ iframe {
   float: none;
   margin: 0 auto
 }
-
-
-@media (min-width: @screen-lg-min) { 
-
-
-
-   }
 
 
 
@@ -227,7 +218,7 @@ p {
   text-align: left;
   line-height: 90%;
   padding-right: 150px;
-  width: 130%;
+  width: 100%;
 }
 .intro-section {
   padding-top: 100px;
