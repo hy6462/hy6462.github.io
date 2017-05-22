@@ -154,7 +154,35 @@ color: #EF4141;
 color: black;
 }
 
+.circle {
+display: inline;
+ width: 20px;
+  height: 20px;
+  background: red;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  /* width and height can be anything, as long as they're equal */
+}
 
+.verticaltextleft {
+  transform: rotate(-90deg);
+  transform-origin: left top 5;
+  float: left;
+}
+
+.verticaltextright {
+  transform: rotate(90deg);
+  transform-origin: left top 0;
+  float: right;
+}
+
+.toptext{
+  transform-origin: left top 0;
+  text-align: center;
+  margin-top: -100px;
+
+}
 
 
 a.socialmedia {
@@ -190,6 +218,7 @@ p {
 }
 
 .ohhello {
+  margin-top: 100px;
   z-index: 10;
   background: none;
   position: absolute;
@@ -240,7 +269,7 @@ p {
 
 
 .intro-section {
-  padding-top: 200px;
+  padding-top: 100px;
   padding-bottom: 100px;
   /*text-align: center;*/
   background: #f0f0f0;
@@ -313,6 +342,35 @@ p {
   color: #1A1B2B;
   padding-bottom: 20px
 }
+
+.verticaltextleft h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195%;
+  color: #1A1B2B;
+  padding-bottom: 20px
+}
+
+.verticaltextright h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195%;
+  color: #1A1B2B;
+  padding-bottom: 20px
+}
+
+
+.toptext h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195%;
+  color: #1A1B2B;
+  padding-bottom: 20px
+}
+
 
 .footer-paragraph h2 {
   font-family: 'Heebo', sans-serif;
