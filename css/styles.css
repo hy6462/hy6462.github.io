@@ -46,6 +46,11 @@ iframe {
 @media (min-width:750px) {
 
 
+.container{
+  width: 1200px;
+}
+
+
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 14px
   }
@@ -114,22 +119,23 @@ body {
     float: right;
   }
 
-a {
+h2 a {
 
-  color: #1A1B2B;
+  color: black;
 
 }
-/*a:link {
-  color: #000000;
-  background-color: transparent;
-  text-decoration: none
-}*/
-a:hover {
+
+h2 a:hover {
   text-decoration: none;
   color: #829665;
   -webkit-transition: all .55s;
   -moz-transition: all .55s;
   transition: all .55s
+}
+
+a:active {
+text-decoration: none;
+color: #EF4141;
 }
 
 
@@ -149,14 +155,11 @@ color: black;
 }
 
 
-a:active {
-text-decoration: none;
-color: #EF4141;
-}
+
 
 a.socialmedia {
   text-decoration: none;
-font-family: 'Lora', sans-serif;
+font-family: 'Heebo', sans-serif;
 font-size: 20px;
 font-weight: 400;
 }
@@ -168,7 +171,7 @@ font-weight: 400;
 a.aboutme {
 border-bottom: 3px solid;
   padding-bottom: 3px;
-  border-color: #829665;
+  border-color: #0C93EF;
 }
 
 
@@ -183,6 +186,7 @@ p {
   display: inline-block;
   position: relative;
   width: 100%;
+  margin: 0 auto;
 }
 
 .ohhello {
@@ -201,7 +205,7 @@ p {
   position: inherit;
   z-index: 0;
   vertical-align:bottom;
-  width: inherit;
+  width: 500px;
   min-width: 500px;
   opacity: 0.7;
 }
@@ -209,22 +213,38 @@ p {
 #pic {
   width: 120%;
   height: 120%;
-  padding-left: 100px;
+  padding-left: 50px;
   padding-top: 150px;
-  max-width: 550px;
+  max-width: 600px;
 }
 .intro-paragraph {
   display: inline-block;
   text-align: left;
   line-height: 90%;
-  padding-right: 150px;
+  margin:  0 auto;
+  width: 80%;
+
+}
+
+
+.footer-paragraph {
+  display: inline-block;
+  text-align: left;
+  line-height: 90%;
+  padding-right: 20px;
   width: 100%;
 }
+#intro1{
+  padding-right: 60px;
+}
+
+
 .intro-section {
-  padding-top: 100px;
+  padding-top: 200px;
   padding-bottom: 100px;
   /*text-align: center;*/
   background: #f0f0f0;
+  margin: 0 auto;
   border: 0
 }
 .project-title {
@@ -251,14 +271,17 @@ p {
 }
 
 .intro-section h1 {
+  padding-top: 100px;
   position:relative;
+  text-align: center;
   width: 100%;
-  font-family: 'Lora', sans-serif;
-  font-weight: 100;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
   line-height: 100%;
-  font-size: 60px;
+  font-size: 90px;
   letter-spacing: 6px;
   padding-bottom: 20px;
+  color: black;
 }
 
 
@@ -283,7 +306,16 @@ p {
 }
 
 .intro-paragraph h2 {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195%;
+  color: #1A1B2B;
+  padding-bottom: 20px
+}
+
+.footer-paragraph h2 {
+  font-family: 'Heebo', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 195%;
@@ -390,7 +422,7 @@ hr {
 .portfolio-section {
   padding: 50px 0;
   text-align: center;
-  background: white
+  background: #F9F9F9;
 }
 .about-section {
   height: 100%;
