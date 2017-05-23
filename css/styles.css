@@ -45,11 +45,13 @@ iframe {
 
 @media (min-width:750px) {
 
-
 .container{
   width: 1200px;
 }
 
+.verticaltextright{
+  visbility: hidden;
+}
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 14px
@@ -60,6 +62,8 @@ iframe {
   iframe {
     height: 600px;
   }
+
+
 }
 
 
@@ -125,18 +129,18 @@ h2 a {
 
 }
 
+
+
 h2 a:hover {
   text-decoration: none;
-  color: #829665;
+  color: #0C93EF;
   -webkit-transition: all .55s;
   -moz-transition: all .55s;
   transition: all .55s
 }
 
-a:active {
-text-decoration: none;
-color: #EF4141;
-}
+
+
 
 
 .h1 em{
@@ -167,15 +171,29 @@ display: inline;
 
 .verticaltextleft {
   transform: rotate(-90deg);
-  transform-origin: left top 5;
+  transform-origin: left top 0;
   float: left;
+  position: absolute;
+
+}
+
+.arrows{
+  
 }
 
 .verticaltextright {
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   transform-origin: left top 0;
   float: right;
+  position: absolute;
+  margin-top: 300px;
 }
+
+
+.footertitles {
+
+}
+
 
 .toptext{
   transform-origin: left top 0;
@@ -197,8 +215,7 @@ font-weight: 400;
 
 
 a.aboutme {
-border-bottom: 3px solid;
-  padding-bottom: 3px;
+border-bottom: 4px solid;
   border-color: #0C93EF;
 }
 
@@ -231,7 +248,8 @@ p {
 }
 
 .photoofme {
-  position: inherit;
+  margin: 0 auto;
+  position: absolute;
   z-index: 0;
   vertical-align:bottom;
   width: 500px;
@@ -240,18 +258,18 @@ p {
 }
 
 #pic {
-  width: 120%;
-  height: 120%;
+  width: 110%;
+  height: 110%;
   padding-left: 50px;
-  padding-top: 150px;
+  padding-top: 30px;
   max-width: 600px;
 }
 .intro-paragraph {
-  display: inline-block;
+ padding-top: 100px;
   text-align: left;
   line-height: 90%;
   margin:  0 auto;
-  width: 80%;
+  width: 100%;
 
 }
 
@@ -334,7 +352,50 @@ p {
   color: #ffadad;
 }
 
+.talkbutton {
+  display: block;
+  position: relative;
+  margin: 0px auto;
+}
+
+.butt {
+display: block;
+    position: relative;
+   padding: 5px 15px 5px 15px;
+   background-color: #0C93EF;
+   height:10%;
+   width:40%;
+   cursor:pointer;
+   margin: 0px auto;
+}
+
+
+
+.butt:hover {
+   background-color: #f0f0f0;
+  
+}
+
+
+
+
+
+
 .intro-paragraph h2 {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 195%;
+  color: #1A1B2B;
+  padding-bottom: 20px
+}
+
+
+
+
+
+
+.portfoliobtn h2 {
   font-family: 'Heebo', sans-serif;
   font-weight: 500;
   font-size: 22px;
@@ -588,13 +649,24 @@ hr {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.7)
 }
-.portfoliobtn {
 
+
+.portfoliobtn {
+color: black;
+ margin-left: 0;
+ margin-right: 0;
 float: left;
   border: none;
   -webkit-animation: shake 13s linear 0s infinite alternate;
   animation: shake 13s linear 0s infinite alternate
 }
+
+.portfoliobtn:hover {
+
+color: #0C93EF
+
+}
+
 
 
 .topportfoliobtn{
