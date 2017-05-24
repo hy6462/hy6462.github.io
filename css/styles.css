@@ -204,18 +204,16 @@ width: 20px;
 .vertical {
   max-width: 100%;
 font-family: 'Heebo', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 22px;
     position: absolute;
    right: 0;
-    -moz-transform: rotate(-90deg);  /* FF3.5+ */
-    -o-transform: rotate(90deg);  /* Opera 10.5 */
-    -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+    
 } 
 
 .vertical2{
 font-family: 'Heebo', sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 22px;
     position: absolute;
   float: left;
@@ -227,15 +225,16 @@ font-family: 'Heebo', sans-serif;
 
 }
 
-
-
-
 .toptext{
-  transform-origin: left top 0;
-  text-align: center;
+  font-size: 10px;
+
   margin-top: -100px;
 
 }
+
+
+
+
 
 
 a.socialmedia {
@@ -281,7 +280,7 @@ p {
 .outer-paragraph {;
   position: relative;
   width: 100%;
-  margin: 0 auto;
+
 }
 
 .ohhello {
@@ -308,7 +307,7 @@ p {
   vertical-align:bottom;
   width: 300px;
   min-width: 500px;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 .circlemoving {
@@ -318,6 +317,7 @@ p {
   vertical-align:bottom;
   width: 20px;
   min-width: 200px;
+  opacity: 0.8;
 
 }
 
@@ -337,12 +337,19 @@ p {
 
 #pic {
   width: 110%;
-  height: 110%;
+  height: 80%;
   padding-left: 50px;
   padding-top: 30px;
   max-width: 600px;
 }
 
+#pic2 {
+  width: 80%;
+  height: 110%;
+  padding-left: 50px;
+  padding-top: 30px;
+  max-width: 600px;
+}
 
 #piccircle {
   width: 100%;
@@ -355,7 +362,7 @@ p {
  padding-top: 30px;
   text-align: left;
   line-height: 90%;
-  margin:  0 auto;
+ margin: 0 auto;
   width: 100%;
 
 }
@@ -378,7 +385,7 @@ p {
   padding-bottom: 100px;
   /*text-align: center;*/
   background: #f0f0f0;
-  margin: 0 auto;
+
   border: 0
 }
 .project-title {
@@ -405,13 +412,12 @@ p {
 }
 
 .intro-section h1 {
+  text-align: left;
   padding-top: 30px;
   position:relative;
-  text-align: center;
   width: 100%;
   font-family: 'Heebo', sans-serif;
-  font-weight: 500;
-  line-height: 100%;
+  font-weight: 400;
   font-size: 70px;
   letter-spacing: 6px;
   padding-bottom: 20px;
@@ -471,7 +477,7 @@ display: block;
 .intro-paragraph h2 {
   font-family: 'Heebo', sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
   padding-bottom: 20px
@@ -495,7 +501,7 @@ display: block;
 .verticaltextright h2 {
   font-family: 'Heebo', sans-serif;
   font-weight: 500;
-  font-size: 22px;
+  font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
   padding-bottom: 20px
@@ -504,8 +510,8 @@ display: block;
 
 .toptext h2 {
   font-family: 'Heebo', sans-serif;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
   padding-bottom: 20px
@@ -515,7 +521,7 @@ display: block;
 .footer-paragraph h2 {
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
   padding-bottom: 20px
@@ -734,12 +740,13 @@ hr {
 
 .portfoliobtn {
 color: #0C93EF;
- margin-left: 0;
- margin-right: 0;
+
 float: left;
   border: none;
   -webkit-animation: shake 13s linear 0s infinite alternate;
   animation: shake 13s linear 0s infinite alternate
+} 
+}
 }
 
 .portfoliobtn2 {

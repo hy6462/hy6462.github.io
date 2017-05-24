@@ -1597,18 +1597,44 @@ pre code {
   .container {
     width: 750px;
   }
+
+
+ .portfoliobtn {
+color: #0C93EF;
+ margin-left: 0;
+ margin-right: 0;
+float: left;
+  border: none;
+  -webkit-animation: shake 13s linear 0s infinite alternate;
+  animation: shake 13s linear 0s infinite alternate
+} 
 }
 @media (min-width: 992px) {
   .container {
     width: 1130px;
   }
+
+  
+
+
+  .vertical {
+  max-width: 100%;
+font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+    position: absolute;
+   right: 0;
+    -moz-transform: rotate(-90deg);  /* FF3.5+ */
+    -o-transform: rotate(90deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+} 
 }
 @media (min-width: 1200px) {
   .container {
     width: 1400px;
 }
 
-  
+
 }
 .container-fluid {
   margin-right: auto;
@@ -4999,15 +5025,14 @@ a.badge:focus {
 
     .intro-section h1 {
   padding-top: 100px;
-  font-size: 90px;
+  font-size: 65px;
     text-align: center;
 }
 .intro-paragraph {
  padding-top: 30px;
   text-align: left;
   line-height: 90%;
-  margin:  0 auto;
-  width: 70%;
+  width: 40%;
 
 }
 
