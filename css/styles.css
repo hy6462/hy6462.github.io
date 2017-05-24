@@ -215,7 +215,7 @@ border-bottom: 4px solid;
   border-color: #0C93EF;
 }
 
-.aboutmee h2{
+.border {
 border-bottom: 4px solid;
   border-color: #0C93EF;
 }
@@ -260,8 +260,32 @@ p {
   vertical-align:bottom;
   width: 300px;
   min-width: 500px;
-  opacity: 0.4;
+  opacity: 0.7;
 }
+
+.circlemoving {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 0;
+  vertical-align:bottom;
+  width: 80px;
+  min-width: 200px;
+
+}
+
+
+.circlemoving2 {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 0;
+  vertical-align:bottom;
+  width: 80px;
+  min-width: 200px;
+  margin-top: 200px;
+  margin-left: 600px;
+
+}
+
 
 #pic {
   width: 110%;
@@ -269,6 +293,15 @@ p {
   padding-left: 50px;
   padding-top: 30px;
   max-width: 600px;
+}
+
+
+#piccircle {
+  width: 100%;
+  height: 100%;
+  padding-left: 50px;
+  padding-top: 30px;
+  max-width: 300px;
 }
 .intro-paragraph {
  padding-top: 30px;
@@ -668,6 +701,18 @@ float: left;
   -webkit-animation: shake 13s linear 0s infinite alternate;
   animation: shake 13s linear 0s infinite alternate
 }
+
+.portfoliobtn2 {
+color: #0C93EF;
+ margin-left: 0;
+ margin-right: 0;
+ margin-top: 20px;
+float: left;
+  border: none;
+  -webkit-animation: shake 13s linear 0s infinite alternate;
+  animation: shake 13s linear 0s infinite alternate
+}
+
 
 .portfoliobtn:hover {
 
