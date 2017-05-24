@@ -49,12 +49,10 @@ iframe {
   width: 1200px;
 }
 
-.verticaltextright{
-  visbility: hidden;
-}
+
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 14px
+    font-size: 20px
   }
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px
@@ -159,40 +157,38 @@ color: black;
 }
 
 .circle {
-display: inline;
- width: 20px;
+  display: inline-block;
+width: 20px;
   height: 20px;
-  background: red;
+  border: 2px solid #0C93EF;
   -moz-border-radius: 50px;
   -webkit-border-radius: 50px;
   border-radius: 50px;
   /* width and height can be anything, as long as they're equal */
 }
 
-.verticaltextleft {
-  transform: rotate(-90deg);
-  transform-origin: left top 0;
-  float: left;
-  position: absolute;
 
-}
 
-.arrows{
-  
-}
-
-.verticaltextright {
-  transform: rotate(-90deg);
-  transform-origin: left top 0;
-  float: right;
-  position: absolute;
-  margin-top: 300px;
-}
+.vertical {
+  max-width: 100%;
+font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+    position: absolute;
+    display: inline-block;
+   border-radius: 10px 10px 0 0;
+   right: 0;
+    -moz-transform: rotate(90deg);  /* FF3.5+ */
+    -o-transform: rotate(90deg);  /* Opera 10.5 */
+    -webkit-transform: rotate(90deg);  /* Saf3.1+, Chrome */
+} 
 
 
 .footertitles {
 
 }
+
+
 
 
 .toptext{
@@ -219,6 +215,13 @@ border-bottom: 4px solid;
   border-color: #0C93EF;
 }
 
+.aboutmee h2{
+border-bottom: 4px solid;
+  border-color: #0C93EF;
+}
+
+
+
 
 h1 {
   letter-spacing: 2px
@@ -227,20 +230,23 @@ p {
   line-height: 25px
 }
 
-.outer-paragraph {
-  display: inline-block;
+.outer-paragraph {;
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
 
 .ohhello {
-  margin-top: 100px;
   z-index: 10;
   background: none;
   position: absolute;
   width: inherit;
 }
+
+
+
+
+
 
 .socialmedia {
   position: relative;
@@ -252,9 +258,9 @@ p {
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
-  width: 500px;
+  width: 300px;
   min-width: 500px;
-  opacity: 0.7;
+  opacity: 0.4;
 }
 
 #pic {
@@ -265,11 +271,11 @@ p {
   max-width: 600px;
 }
 .intro-paragraph {
- padding-top: 100px;
+ padding-top: 30px;
   text-align: left;
   line-height: 90%;
   margin:  0 auto;
-  width: 100%;
+  width: 70%;
 
 }
 
@@ -597,14 +603,16 @@ hr {
   transform: translateY(-50%)
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif
+  font-family: 'Heebo', 'Helvetica Neue', Arial, sans-serif
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-weight: 600;
-  font-size: 14px
+  font-size: 16px
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-size: 15px
+  font-size: 25px;
+  font-family 'Heebo';
+  font-weight: 700;
 }
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1
@@ -652,7 +660,7 @@ hr {
 
 
 .portfoliobtn {
-color: black;
+color: #0C93EF;
  margin-left: 0;
  margin-right: 0;
 float: left;
@@ -663,7 +671,7 @@ float: left;
 
 .portfoliobtn:hover {
 
-color: #0C93EF
+color: black;
 
 }
 
