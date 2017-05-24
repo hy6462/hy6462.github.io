@@ -216,8 +216,14 @@ border-bottom: 4px solid;
 }
 
 .border {
-border-bottom: 4px solid;
+  position: relative;
+border-bottom: 5px solid;
   border-color: #0C93EF;
+
+}
+
+.footertitles{
+  width: 180px;
 }
 
 
