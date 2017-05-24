@@ -305,9 +305,9 @@ p {
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
-  width: 300px;
-  min-width: 500px;
-  opacity: 0.4;
+  width: 400px;
+  min-width: 600px;
+  opacity: 0.7;
 }
 
 .circlemoving {
@@ -329,8 +329,23 @@ p {
   vertical-align:bottom;
   width: 20px;
   min-width: 200px;
-  margin-top: 180px;
+  margin-top: 170px;
   margin-left: 500px;
+  opacity: 0.6;
+}
+
+.circlemoving3 {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 0;
+  vertical-align:bottom;
+  width: 10px;
+  min-width: 170px;
+ margin-top: 340px;
+ margin-left: 50px;
+   opacity: 0.5;
+
+
 
 }
 
@@ -626,7 +641,7 @@ hr {
 .portfolio-section {
   padding: 50px 0;
   text-align: center;
-  background: #F9F9F9;
+  background: #f0f0f0;
 }
 .about-section {
   height: 100%;
