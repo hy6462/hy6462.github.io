@@ -253,13 +253,17 @@ font-weight: 400;
 
 a.aboutme {
 border-bottom: 4px solid;
-  border-color: #0C93EF;
+  border-color: #10C5E2
+
+;
 }
 
 .border {
   position: relative;
 border-bottom: 5px solid;
-  border-color: #0C93EF;
+  border-color: #10C5E2
+
+;
 
 }
 
@@ -754,7 +758,7 @@ hr {
 
 
 .portfoliobtn {
-color: #0C93EF;
+color:#10C5E2;
 
 float: left;
   border: none;
@@ -765,7 +769,9 @@ float: left;
 }
 
 .portfoliobtn2 {
-color: #0C93EF;
+color:#10C5E2
+
+;
  margin-left: 0;
  margin-right: 0;
  margin-top: 20px;
