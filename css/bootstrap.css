@@ -5025,11 +5025,11 @@ a.badge:focus {
 
     .intro-section h1 {
   padding-top: 100px;
-  font-size: 70px;
-    text-align: center;
+  font-size: 40px;
+    text-align: left;
 }
 .intro-paragraph {
- padding-top: 30px;
+
   text-align: left;
   line-height: 90%;
   width: 40%;

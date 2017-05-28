@@ -221,14 +221,11 @@ font-family: 'Heebo', sans-serif;
     -o-transform: rotate(-90deg);  /* Opera 10.5 */
     -webkit-transform: rotate(-90deg);  /* Saf3.1+, Chrome */
 } 
-.footertitles {
-
-}
 
 .toptext{
   font-size: 10px;
 
-  margin-top: -100px;
+
 
 }
 
@@ -285,6 +282,7 @@ p {
   position: relative;
   width: 100%;
 
+
 }
 
 .ohhello {
@@ -292,6 +290,8 @@ p {
   background: none;
   position: absolute;
   width: inherit;
+
+
 }
 
 
@@ -305,13 +305,15 @@ p {
 }
 
 .photoofme {
+  display: none;
   margin: 0 auto;
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
   width: 400px;
+  height: 30%;
   min-width: 600px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .circlemoving {
@@ -331,10 +333,10 @@ p {
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
-  width: 20px;
+  width: 300px;
   min-width: 200px;
   margin-top: 170px;
-  margin-left: 500px;
+  margin-left: 900px;
   opacity: 0.6;
 }
 
@@ -343,7 +345,7 @@ p {
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
-  width: 10px;
+  width: 250px;
   min-width: 170px;
  margin-top: 340px;
  margin-left: 50px;
@@ -353,19 +355,33 @@ p {
 
 }
 
+.circlemoving4 {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 0;
+  vertical-align:bottom;
+  width: 240px;
+  min-width: 150px;
+ margin-top: 40px;
+ margin-left: 620px;
+   opacity: 0.3;
+
+
+
+}
+
 
 #pic {
   width: 110%;
-  height: 80%;
+  height: 20%;
   padding-left: 50px;
-  padding-top: 30px;
   max-width: 600px;
 }
 
 #pic2 {
   width: 80%;
   height: 110%;
-  padding-left: 50px;
+  padding-left: 80px;
   padding-top: 30px;
   max-width: 600px;
 }
@@ -378,7 +394,7 @@ p {
   max-width: 300px;
 }
 .intro-paragraph {
- padding-top: 30px;
+
   text-align: left;
   line-height: 90%;
  margin: 0 auto;
@@ -400,8 +416,7 @@ p {
 
 
 .intro-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
+padding-bottom: 100px;
   /*text-align: center;*/
   background: #f0f0f0;
 
@@ -431,15 +446,14 @@ p {
 }
 
 .intro-section h1 {
+  padding-top: 100px;
   text-align: left;
-  padding-top: 30px;
   position:relative;
   width: 100%;
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 40px;
   letter-spacing: 6px;
-  padding-bottom: 20px;
   color: black;
  
 }
@@ -494,8 +508,8 @@ display: block;
 
 
 .intro-paragraph h2 {
-  font-family: 'Heebo', sans-serif;
-  font-weight: 500;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
   font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
@@ -518,7 +532,7 @@ display: block;
 
 
 .verticaltextright h2 {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 500;
   font-size: 15px;
   line-height: 195%;
@@ -528,7 +542,7 @@ display: block;
 
 
 .toptext h2 {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 195%;
@@ -538,7 +552,7 @@ display: block;
 
 
 .footer-paragraph h2 {
-  font-family: 'Heebo', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 195%;
