@@ -418,7 +418,7 @@ p {
 .intro-section {
 padding-bottom: 100px;
   /*text-align: center;*/
-  background: #f0f0f0;
+  background: #F9F9F9;
 
   border: 0
 }
@@ -659,7 +659,7 @@ hr {
 .portfolio-section {
   padding: 50px 0;
   text-align: center;
-  background: #f0f0f0;
+  background: #F9F9F9;
 }
 .about-section {
   height: 100%;
@@ -670,7 +670,7 @@ hr {
 .footer-section {
   padding-top: 50px;
   text-align: center;
-  background: #EFEDED;
+  background: #F9F9F9;
 }
 
 .footer-section .row div * {
