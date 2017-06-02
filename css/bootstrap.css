@@ -1611,7 +1611,7 @@ float: left;
 }
 @media (min-width: 992px) {
   .container {
-    width: 1130px;
+    width: 1120px;
   }
 
   
@@ -1631,7 +1631,7 @@ font-family: 'Heebo', sans-serif;
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1400px;
+    width: 1350px;
 }
 
 
