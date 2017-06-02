@@ -310,9 +310,9 @@ p {
   position: absolute;
   z-index: 0;
   vertical-align:bottom;
-  width: 400px;
+  width: 200px;
   height: 30%;
-  min-width: 600px;
+  min-width: 400px;
   opacity: 0.5;
 }
 
@@ -452,8 +452,8 @@ padding-bottom: 100px;
   width: 100%;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 40px;
-  letter-spacing: 6px;
+  font-size: 35px;
+  letter-spacing: 4px;
   color: black;
  
 }
