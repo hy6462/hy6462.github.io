@@ -292,14 +292,6 @@ p {
 
 }
 
-.ohhello {
-  z-index: 10;
-  background: none;
-  position: absolute;
-  width: inherit;
-
-
-}
 
 
 
@@ -355,7 +347,7 @@ p {
   width: 250px;
   min-width: 170px;
  margin-top: 340px;
- margin-left: 50px;
+ margin-left: 400px;
    opacity: 0.5;
 
 
@@ -383,7 +375,10 @@ p {
   height: 20%;
   padding-left: 50px;
   max-width: 600px;
+  opacity:0;
 }
+
+
 
 #pic2 {
   width: 80%;
@@ -391,7 +386,10 @@ p {
   padding-left: 80px;
   padding-top: 30px;
   max-width: 600px;
+
 }
+
+
 
 #piccircle {
   width: 100%;
@@ -404,7 +402,7 @@ p {
 
   text-align: left;
   line-height: 90%;
- margin: 0 auto;
+
   width: 100%;
 
 }
@@ -423,7 +421,7 @@ p {
 
 
 .intro-section {
-padding-bottom: 100px;
+padding-bottom: 60px;
   /*text-align: center;*/
   background: #F9F9F9;
 
@@ -453,7 +451,7 @@ padding-bottom: 100px;
 }
 
 .intro-section h1 {
-  padding-top: 100px;
+ 
   text-align: left;
   position:relative;
   width: 100%;
@@ -520,7 +518,7 @@ display: block;
   font-size: 16px;
   line-height: 195%;
   color: #000000;
-  padding-bottom: 20px
+  padding-bottom: 100px
 }
 
 
@@ -567,7 +565,17 @@ display: block;
   padding-bottom: 20px
 }
 
+.hover-up {
+    top: 0px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
+.hover-up:hover {
+    top: -20px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
 
 
 
@@ -591,7 +599,60 @@ display: block;
   border: 0
 }
 
+.profilepic{
+display: none;
+}
 
+.profilepic img{
+
+position: absolute;
+width: 70%;
+height: auto;
+left: 65rem;
+top: -5rem;
+ z-index: 10;
+
+
+
+
+}
+
+.box-shadow {
+    box-shadow: 0 10px 22px rgba(0,0,0,.08);
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    padding: 0px!important;
+}
+
+.box-shadow:hover {
+    box-shadow: 0px 16px 22px 2px rgba(51,51,51,0.2);
+}
+
+
+a:hover>.profilepic{
+display: block;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+
+}
+
+
+a.name {
+  color: black;
+  border-bottom: 3px solid;
+  border-color: #10C5E2;
+
+}
+
+
+h1 a:hover {
+  text-decoration: none;
+  color: #0C93EF;
+  -webkit-transition: all .55s;
+  -moz-transition: all .55s;
+  transition: all .55s
+}
 
 
 
@@ -659,6 +720,11 @@ hr {
     opacity: 1
   }
 }
+
+video {
+    display: inline-block;
+    vertical-align: baseline;
+}
 .portfolio-details {
   text-align: center;
   background: white
@@ -697,13 +763,13 @@ hr {
   display: block;
   max-width: 1000px;
   margin: 0px 0px 40px 0px;
-  box-shadow: 5px 5px 5px #E5E5E5;
+  box-shadow: 0px 0px 0px #E5E5E5;
 }
 .portfolio-box .portfolio-box-caption {
   color: #fff;
   opacity: 0;
   display: block;
-  background: rgba(0, 0, 0, 0.8);
+background: rgba(255,255,255,0.95);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -716,7 +782,7 @@ hr {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: left;
-  margin-left: 40px;
+  margin-left: 60px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%)
@@ -734,7 +800,7 @@ hr {
   font-weight: 700;
 }
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1
+  opacity: 0.5
 }
 .minas-btn-default {
   opacity: 0.8;
