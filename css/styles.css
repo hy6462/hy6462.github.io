@@ -403,7 +403,7 @@ p {
   text-align: left;
   line-height: 90%;
 
-  width: 100%;
+  width: 60%;
 
 }
 
@@ -606,7 +606,7 @@ display: none;
 .profilepic img{
 
 position: absolute;
-width: 60%;
+width: 80%;
 height: auto;
 left: 65rem;
 top: -5rem;
