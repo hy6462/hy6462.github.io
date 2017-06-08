@@ -1611,7 +1611,7 @@ float: left;
 }
 @media (min-width: 992px) {
   .container {
-    width: 1000px;
+    width: 970px;
   }
 
   
@@ -1631,7 +1631,7 @@ font-family: 'Heebo', sans-serif;
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1350px;
+    width: 1270px;
 }
 
 
@@ -5032,7 +5032,7 @@ a.badge:focus {
 
   text-align: left;
   line-height: 90%;
-  width: 38%;
+  width: 41%;
 }
 
 .talkbutton {
