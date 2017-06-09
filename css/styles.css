@@ -403,7 +403,7 @@ p {
   text-align: left;
   line-height: 90%;
 
-  width: 60%;
+  width: 100%;
 
 }
 
@@ -423,7 +423,7 @@ p {
 .intro-section {
 padding-bottom: 60px;
   /*text-align: center;*/
-  background: #F9F9F9;
+  background: #FFFFFF;
 
   border: 0
 }
@@ -732,7 +732,7 @@ video {
 .portfolio-section {
   padding: 50px 0;
   text-align: center;
-  background: #F9F9F9;
+  background: #FFFFFF;
 }
 .about-section {
   height: 100%;
@@ -743,7 +743,7 @@ video {
 .footer-section {
   padding-top: 50px;
   text-align: center;
-  background: #F9F9F9;
+  background: #F7F7F7;
 }
 
 .footer-section .row div * {
