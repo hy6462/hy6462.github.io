@@ -227,8 +227,6 @@ font-family: 'Heebo', sans-serif;
 .toptext{
   font-size: 10px;
 
-
-
 }
 
 
@@ -415,15 +413,6 @@ p {
   padding-right: 20px;
   width: 100%;
 }
-
-.footer-paragraph2 {
-  display: inline-block;
-  text-align: center;
-  line-height: 90%;
-  padding-right: 20px;
-  width: 100%;
-}
-
 #intro1{
   padding-right: 60px;
 }
@@ -509,9 +498,6 @@ display: block;
    cursor:pointer;
 }
 
-.fixed {
-    position: fixed;
-}
 
 
 .butt:hover {
@@ -519,18 +505,9 @@ display: block;
   
 }
 
-.page-banner {
-    width: 100%;
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-image: url('img/pkg.jpg');
-}
 
-.pad-m {
-    margin-bottom: 120px;
-}
+
+
 
 
 .intro-paragraph h2 {
@@ -539,17 +516,9 @@ display: block;
   font-size: 16px;
   line-height: 195%;
   color: #000000;
-  padding-bottom: 18px;
-}
-
-
-.project h2 {
-  font-family: 'Lato', sans-serif;
-  font-size: 16px;
-  line-height: 195%;
-  color: #000000;
   padding-bottom: 18px
 }
+
 
 
 
@@ -576,25 +545,18 @@ display: block;
 
 
 .toptext h2 {
+  position: fixed;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 195%;
   color: #1A1B2B;
-  padding-bottom: 20px
+  padding-bottom: 20px;
+
 }
 
 
 .footer-paragraph h2 {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 195%;
-  color: #000000;
-  padding-bottom: 20px
-}
-
-.footer-paragraph2 h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 15px;
