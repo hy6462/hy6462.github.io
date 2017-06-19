@@ -642,17 +642,11 @@ display: none;
 }
 
 .profilepic img{
-
 position: absolute;
-width: 80%;
+width: 30%;
 height: auto;
-left: 65rem;
-top: -5rem;
- z-index: 10;
-
-
-
-
+left: 30rem;
+top: -10rem;
 }
 
 .box-shadow {

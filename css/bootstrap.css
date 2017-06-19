@@ -1599,6 +1599,15 @@ pre code {
   }
 
 
+.profilepic img{
+position: absolute;
+width: 40%;
+height: auto;
+left: 30rem;
+top: -15rem;
+}
+
+
  .portfoliobtn {
 color: #0C93EF;
  margin-left: 0;
@@ -1615,7 +1624,13 @@ float: left;
   }
 
   
-
+.profilepic img{
+position: absolute;
+width: 80%;
+height: auto;
+left: 50rem;
+top: 1rem;
+}
 
   .vertical {
   max-width: 100%;
