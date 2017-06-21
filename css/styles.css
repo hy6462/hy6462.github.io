@@ -639,6 +639,7 @@ display: block;
 
 .profilepic{
 display: none;
+
 }
 
 .profilepic img{
@@ -647,7 +648,11 @@ width: 30%;
 height: auto;
 left: 30rem;
 top: -10rem;
+ transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
 }
+
 
 .box-shadow {
     box-shadow: 0 10px 22px rgba(0,0,0,.08);
