@@ -241,6 +241,14 @@ width: 20px;
 }
 
 
+.pad-s{
+  padding-bottom: 20px;
+}
+
+
+.clearfix {
+  margin: auto;
+}
 
 .vertical {
   max-width: 100%;
@@ -566,6 +574,54 @@ display: block;
     background-image: url('../imgs/sap/sapbanner.png');
 }
 
+
+.page-banner2 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imgs/fearless/fearlessbanner.png');
+}
+
+.page-banner3 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imgs/qube/qubebanner.jpg');
+}
+
+
+.page-banner4 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imgs/moon/banner.jpg');
+}
+
+
+.page-banner5 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imgs/jars/banner.jpg');
+}
+
+
+.page-banner6 {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../imgs/hanji/banner.jpg');
+}
 .pad-m {
     margin-bottom: 120px;
 }
