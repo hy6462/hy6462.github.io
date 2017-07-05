@@ -106,6 +106,11 @@ h1 {
 }
 
 
+.headings{
+  display: inline;
+
+}
+
 
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 20px
@@ -630,16 +635,33 @@ display: block;
 .intro-paragraph h2 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 195%;
   color: #000000;
   padding-bottom: 18px;
 }
 
 
+.intro-section h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 195%;
+  color: #000000;
+}
+
+.intro-section h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 195%;
+  color: #7C7C7C;
+  padding-top: 18px;
+}
 .project h2 {
   font-family: 'Lato', sans-serif;
-  font-size: 16px;
+    font-weight: 300;
+  font-size: 15px;
   line-height: 195%;
   color: #000000;
   padding-bottom: 18px
