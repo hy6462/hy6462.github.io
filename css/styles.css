@@ -767,6 +767,14 @@ hr {
   }
 }
 
+.soon {
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 60px;
+  text-align: left;
+  padding-bottom: 30px;
+  opacity: 1;
+}
+
 video {
     display: inline-block;
     vertical-align: baseline;
