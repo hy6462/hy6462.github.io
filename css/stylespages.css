@@ -20,6 +20,11 @@
     transform: translateY(6px)
   }
 }
+a:visited, a:link {
+  text-decoration: none !important;
+  outline: 0;
+}
+
 
 
 img[data-action="zoom"] {

@@ -5036,18 +5036,12 @@ a.badge:focus {
 }
 @media screen and (min-width: 1000px) {
 
-
-
-    .intro-section h1 {
  
-  font-size: 40px;
-    text-align: left;
-}
 .intro-paragraph {
 
   text-align: left;
   line-height: 90%;
-  width: 41%;
+  width: 90%;
 }
 
 .talkbutton {
@@ -6051,6 +6045,7 @@ button.close {
   overflow: scroll;
 }
 @media (min-width: 768px) {
+
   .modal-dialog {
     width: 600px;
     margin: 30px auto;
@@ -6064,6 +6059,7 @@ button.close {
   }
 }
 @media (min-width: 992px) {
+ 
   .modal-lg {
     width: 900px;
   }
@@ -6647,6 +6643,8 @@ button.close {
   display: none !important;
 }
 @media (max-width: 767px) {
+
+  
   .visible-xs {
     display: block !important;
   }
@@ -6707,6 +6705,7 @@ button.close {
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
+    
   .visible-md {
     display: block !important;
   }
