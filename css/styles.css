@@ -145,11 +145,6 @@ font-family: 'Heebo', sans-serif;
     
 } 
 
-.left-box .portfolio-box {
-  padding-left: -20;
-}
-
-
 .vertical2{
 font-family: 'Heebo', sans-serif;
   font-weight: 400;
@@ -223,8 +218,8 @@ font-weight: 200;
 
 
 a.socialmedia {
-
-
+border-bottom: 1px solid;
+  border-color: #10C5E2;
 
 }
 
@@ -248,7 +243,7 @@ border-bottom: 3px solid;
 
 .space {
   display: inline-block;
-  padding-right: 15px;
+  padding-right: 20px;
 }
 
 .footertitles{
@@ -426,7 +421,7 @@ padding-bottom: 150px;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 40px;
   letter-spacing: 2px;
   color: black;
 }
@@ -841,7 +836,6 @@ video {
   margin: 0 auto
 }
 .portfolio-box {
-  
   position: relative;
   display: block;
   max-width: 1000px;
@@ -851,7 +845,6 @@ video {
   padding-bottom:-10px;
 }
 .portfolio-box .portfolio-box-caption {
-
   color: #000000;
   opacity: 0;
   display: block;
@@ -868,6 +861,7 @@ background: rgba(255,255,255,0.95);
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   width: 100%;
   text-align: left;
+ left: 10%;
   position: absolute;
   top: 50%;
   transform: translateY(-50%)
